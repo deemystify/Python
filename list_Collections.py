@@ -23,11 +23,11 @@ print(str(scores[1]) + ' is the first score on our list') # Collections are zero
 
 from array import array
 
-scores = array('d')# d is an indcation of a double numberic data type that will be used in the array 
-scores.append(97)
-scores.append(98)
-print(scores)
-print(scores[1])# PRINTS THE 2nd ITEM in the array 
+# scores = array('d')# d is an indcation of a double numberic data type that will be used in the array 
+# scores.append(97)
+# scores.append(98)
+# print(scores)
+# print(scores[1])# PRINTS THE 2nd ITEM in the array 
 
 
  
