@@ -37,7 +37,7 @@ def print_initials():
     # Anothe simpler implementation using the get option
 
     def get_initial(name):
-        initial = name[0:1]
+        initial = name[0:1].upper
         return initial
     #Ask for someone's name and return the initials.
     first_name = input ('Enter your first name: ')
@@ -50,7 +50,7 @@ def print_initials():
     last_name_initial = get_initial(last_name_initial)
 
     print('Your initials are: ' + first_name_initial + middle_name_initial + last_name_initial)
-    
+
 
 
 
