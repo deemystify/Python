@@ -5,12 +5,20 @@
 
 #import requests
 import  json
+import requests
 from pip._vendor import requests
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+
 
 # We will need the json library to read the data passed back by the web service
 import json
 # We need the key to access our Computer Vision Service
-SUBSCRIPTION_KEY = ""# removed for security reasons
+SUBSCRIPTION_KEY = os.getenv('SUBCRIPTION_KEY')
+
+print(SUBSCRIPTION_KEY)
 
 # We need the address of our Computer vision service 
 vision_service_address = "https://eastus.api.cognitive.microsoft.com/vision/v2.0/"
